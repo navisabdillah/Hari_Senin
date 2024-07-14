@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sign In</h1>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" id="email" name="email" value="xyz@gmail.com" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" value="admin#1234" required>
+            </div>
+            <div class="form-group">
+                <label for="remember">
+                    <input type="checkbox" id="remember" name="remember">
+                    Remember me
+                </label>
+            </div>
+            <button type="submit">LOGIN</button>
+        </form>
+
+        <div class="social-login">
+            <p>Or</p>
+            <a href="#" class="facebook">Sign in with Facebook</a>
+            <a href="#" class="google">Sign in with Google</a>
+        </div>
+
+        <div class="register-forgot">
+            <p>Don't have an account? <a href="#">Register</a></p>
+            <p><a href="#">Forgot password?</a></p>
+        </div>
+    </div>
+
+    <script>
+        const loginForm = document.getElementById('loginForm');
+
+        loginForm.addEventListener('submit', (event) => {
+            event.preventDefault(); // Prevent default form submission
+
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            // Simulate successful login (replace with actual login validation)
+            if (email === 'xyz@gmail.com' && password === 'admin#1234') {
+                // Redirect to home.html after successful login
+                window.location.href = 'Home.html';
+            } else {
+                alert('Username dan Password anda salah');
+            }
+        });
+    </script>
+</body>
+</html>

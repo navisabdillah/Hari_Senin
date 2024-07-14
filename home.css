@@ -1,0 +1,257 @@
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .search-form {
+        margin-left: 0;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    background-color: #fff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+header input {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+
+.hero {
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-text {
+    color: #fff;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-text button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.pontos-de-coleta {
+    padding: 20px;
+}
+
+.pontos-de-coleta h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.ponto-de-coleta {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.ponto-de-coleta h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.ponto-de-coleta p {
+    margin-bottom: 5px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+article {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+}
+
+article img {
+    width: 100%; /* Make the image cover the full width of the article */
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensure the image is fully visible and covers the entire area */
+    margin-bottom: 10px; /* Add some space below the image */
+}
+
+.container_blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Menambahkan justify-content: center untuk memusatkan vertikal */
+    height: 50vh; /* Mengatur tinggi container menjadi 100% viewport */
+    margin: 0;
+
+  }
+  
+  .gambar-dan-teks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .gambar-dan-teks img {
+    width: 200px; /* Atur lebar gambar sesuai keinginan */
+    height: auto;
+    margin-right: 20px; /* Tambahkan margin kanan untuk jarak antar gambar dan teks */
+    border-radius: 10px;
+  }
+  
+  .text {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .button {
+    display: inline-block; /* Menampilkan tombol sebagai elemen inline-block */
+    padding: 10px 20px; /* Memberikan padding pada tombol */
+    background-color: #007bff; /* Mengatur warna latar belakang tombol */
+    color: #fff; /* Mengatur warna teks tombol */
+    text-decoration: none; /* Menghapus garis bawah dari teks tombol */
+    border: none; /* Menghapus border dari tombol */
+    border-radius: 5px; /* Menambahkan radius ke sudut tombol */
+    font-size: 14px; /* Mengatur ukuran font teks tombol */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat mengarahkan kursor ke tombol */
+    transition: background-color 0.3s; /* Menambahkan efek transisi pada warna latar belakang tombol */
+  }
+  
+  .button:hover { /* Gaya saat kursor mengarahkan ke tombol */
+    background-color: #0056b3; /* Mengubah warna latar belakang tombol saat hover */
+  }
+
+  /* CSS umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+.Judul{
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.team-member {
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.team-member p {
+    margin: 0;
+    font-size: 14px;
+}
+
+  /* Footer */
+  footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer h2 {
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #ddd;
+  }
+  
+  footer p {
+    margin-top: 10px;
+  }
+  
+  
+
+  
